@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headhunter Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="form-container">
+    <h1>HEADHUNTER FORM</h1>
+    <p class="intro-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod ratione consequatur sequi nobis alias repellendus, iusto explicabo, quidem pariatur obcaecati placeat. Error nesciunt dolorem quas officiis. Voluptas ducimus saepe repudiandae.</p>
+    
+    <form action="https://www.jnbjensen.com">
+      <h3>Tell me a bit about yourself</h3>
+      <div class="input-text">
+        <label for="name">Please enter your name:</label>
+        <input id="name" type="text" placeholder="John Smith" name="name" required>
+      </div>
+      <div class="input-text">
+        <label for="company">Please enter the company you work for:</label>
+        <input id="company" type="text" placeholder="Google" name="company" required>
+      </div>
+      <div class="input-text">
+        <label for="email">Please enter your e-mail address:</label>
+        <input id="email" type="email" placeholder="example@google.com" name="email" required>
+      </div>
+      <div class="input-dropdown">
+        <label for="findme">How did you find me?</label>
+        <select name="findme" id="findme">
+          <option value>Please choose one</option>
+          <option value="LinkedIn">LinkedIn</option>
+          <option value="Demando">Demando</option>
+          <option value="Google">Searched for 'awesome front end developer' on Google</option>
+        </select>
+      </div>
+      <h3>Tell me a bit about the job</h3>
+      <div>
+        <label for="job-title">What's the title of the position you're recruiting for?</label> 
+        <input id="job-title" type="text" placeholder="Front End Developer" name="job-title"> 
+      </div>
+      <p>What languages and frameworks would I be required to use?</p>
+      <div class="input-checkbox">
+        <label for="html">HTML</label>
+        <input type="checkbox" name="tech-stack" id="html" name="html">
+      </div>
+      <div class="input-checkbox">
+        <label for="css">CSS</label>
+        <input type="checkbox" name="tech-stack" id="css" name="css">
+      </div>
+      <div class="input-checkbox">
+        <label for="javascript">JavaScript</label>
+        <input type="checkbox" name="tech-stack" id="javascript" name="javascript">
+      </div>
+      <div class="input-checkbox">
+        <label for="react">React</label>
+        <input type="checkbox" name="tech-stack" id="react" name="react">
+      </div>
+      <div class="input-checkbox">
+        <label for="redux">Redux</label>
+        <input type="checkbox" name="tech-stack" id="redux" name="redux">
+      </div>
+      <div class="input-checkbox">
+        <label for="node-js">Node.js</label>
+        <input type="checkbox" name="tech-stack" id="node-js" name="node-js">
+      </div>
+      <div class="input-checkbox">
+        <label for="ew">COBOL</label>
+        <input type="checkbox" name="tech-stack" id="ew" name="ew">
+      </div>
+      <div class="input-dropdown">
+        <label for="salary">What's the salary range?</label>
+        <select name="salary" id="salary">
+          <option value>Please choose one</option>
+          <option value="internship">Unpaid</option>
+          <option value="decent">SEK 360-420,000</option>
+          <option value="holy-shit">Over SEK 420,000</option>
+        </select>
+      </div>
+      <div>
+        <label for="slider">Please indicate with this slider how perfect you think I am for the role.</label>  
+        <input id="slider" type="range" name="slider" min="1" max="10">
+      </div>
+      <h3>Convince me</h3>
+      <label for="cover-letter">Finally, please describe all the reasons why you think I'd be a great fit for this role.</label>
+      <textarea name="cover-letter" id="cover-letter" placeholder="You're simply the best!"></textarea>
+      <div class="submit">
+        <button>POW! Submitted!</button>
+      </div>
+    </form>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,103 @@
+/* BASIC SETUP: Margin, background image, flex container. */
+
+body {
+    margin: 0;
+    background-image: url(coding.jpg);
+    background-color: black;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Roboto, sans-serif;
+    text-shadow: 1px 1px black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* FORM STYLING */
+
+.form-container {
+    margin: 20px;
+    height: auto;
+    max-width: 960px;
+    background: rgb(20, 20, 20);
+    color: whitesmoke;
+    padding: 25px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    border: 1px solid silver;
+    opacity: 0.95;
+}
+
+.form-container div {
+    margin: 10px 5px;
+}
+
+input {
+    background: black;
+    color: whitesmoke;
+    display: block;
+    font-family: Roboto, sans-serif;
+    width: 50%;
+    margin-top: 5px;
+}
+
+select {
+    background: black;
+    color: whitesmoke;
+    display: block;
+    font-family: Roboto, sans-serif;
+    width: 50%;
+    margin-top: 5px;
+}
+
+h3 {
+    margin: 25px 5px;
+    text-transform: uppercase;
+    border-top: 1px solid grey;
+    padding-top: 15px;
+}
+
+.input-checkbox {
+    display: flex;
+    justify-content: space-between;
+    max-width: 20%;
+    margin: 5px 5px;
+
+}
+
+.input-checkbox input {
+    display: inline;
+}
+
+textarea {
+    display: block;
+    background: black;
+    color: whitesmoke;
+    font-family: Roboto, sans-serif;
+    width: 50%;
+    margin: 20px 5px;
+}
+
+button {
+    background: none;
+    font-family: Roboto, sans-serif;
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.5s;
+    border-radius: 15px;
+}
+    
+button:hover {
+    border: 2px solid yellowgreen;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em yellowgreen;
+    transform: translateY(-0.20em);
+    cursor: pointer;
+}
